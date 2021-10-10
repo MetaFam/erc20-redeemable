@@ -21,12 +21,12 @@ module.exports = async function(callback) {
     const redeem = await Redeem.deployed();
     console.log("DOne 1");
 
-    let weekNum = 2; // adjust accordingly
+    let weekNum = 6; // adjust accordingly
 
     await redeem.seedAllocations(
       weekNum,
-      "0x1989b4855883bf40f02ac0f0cae02df5ae3956ff237de8c255fc14e20191ff90",
-      utils.toWei("4450.862343625")
+      "0xbcf3daaa5f943a7023bca1c9569f49b560d691ac80c98bc75e0dfe9ec02ed89e",
+      utils.toWei("3459.6662591220015")
     );
     console.log("DOne 2");
   } catch (e) {
